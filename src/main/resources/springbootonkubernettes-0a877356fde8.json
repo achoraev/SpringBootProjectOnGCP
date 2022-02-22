@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "springbootonkubernettes",
+  "private_key_id": "0a877356fde883b01c16e544c98b83c9c1ee4929",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEugIBADANBgkqhkiG9w0BAQEFAASCBKQwggSgAgEAAoIBAQDGjo9xyXw1pBn1\n9tZu7wTbcdTDLPwwjcfBuoEuLDNiA0+0xzRgmIK/DiGGjL4NY/qTPBEpKQ0UyrQq\n6Nzqpk61Q5K2TDvvMpgobYfc20+v8L9nJ80C6jk343o7UrUhZrUm1SLb6ZDqLWuS\n5VbelVLujFK0SfiPm0a0nnzpjU0iHy91RtG2y0iLUPh0WsHofMRksAQllIoxMvNB\nIMAMebihw406dTTm+fMM9H6GkuReqQhKgDu6YI8AZWxR289AObaIuGai1TEYU2rC\nZXZGV6nCpu2n3uIcYXoQVDho0bq4mkoML4nQyoV6QIPYVHryAqZhpqjAwL1zPwtm\nfETaZDfhAgMBAAECgf8070zOySiUJGvHZ0dDy/U/i9ltL1EMoL/gphhKdv474yYc\ny/7qwb4ZsWq+tEb2yvDC0ADDOG6EXIYr6mj7JdtV9+3lK+3Ol255WLof51gXT9e3\naKT/YfJfNAYiSqp/fSJOeAQTHPHFfNZxEzNVo/m4HzDtX8skfgEbpiUnHsSxk6Zc\nyim/I9oB+sZrKHanu0FilZbkR7f4wVR8lZMf2lyp2hKSyaxyMBx5f21xz1i7xcoC\nNjGm+d8QKsZWkJpwtLAqbPW+Yn1jcg4UFBxU+YIj/j5HXHrdvi4dN3Gf2aTIQD2D\n5tJjs2MZ+sCtwip5yun5XrOByNzpo/5K9i+sSk0CgYEA8HJysDAsQ1Y/tT+20QU7\nQfwzDRmi2SzCUSQm13wIESEo7kndf4WsNsBd2ryl2NUx36e3QehX1Tyi2051c79j\nLU3EspYN6Co2M8ck320Zpm/TDibRx/n5Tee8DcDleqHy5elLluXCK/E5LIIbZpg/\n82a2kWjhoBQDIgcAdE7hlN0CgYEA02Z0YwfUGjiDitrehb/UIWKGcBp/z/SYwvbZ\ny6ZIcf11KgEOz7J3t/BIPNraItE5LxUvXbrkENOOqV/mG7fxP6Gs5v1rcwp9E0IE\nzZKXsj8hM9FNxdLNRgN5AQ34X3mCvDjdDuVSVKaZPHygz/SkKvJfBfz3C8C+m8qN\ntciNDNUCgYA7RyvpLecrrq7EI3IRs+V5DhET8LcKLZO2Z2BADa77ch5iKMm3r5/W\nW7SHwaxteZnzFqkCUaKdynYn9P7Vy2BLAfo1QPMqwoVcXINFpeMF+lmhCob7czA4\nOaJODblFc3mrnslo6TnmlXDP/T9+Gpjhi/gEf0PosCZZlDpTckMA7QKBgAsp/PmB\n31SnKWM63ceIcuZ0co8XByrvSuX47VWQ6YCDlx1pwuN7FFF1cgssr5ppHDD9WGwF\nw6eT1JPjSZ6rHyVyH1Rvi64enq5WrTRCCprSNKms4wOQd2C8LDa/Cx/XpezUv+/a\ncnef+LW2CzQQQl82P4hsbIuFWUuW7dbsyW4lAoGAA7yo4qFFgPPs2o7tjDsLXsnz\nhKKR5amaJ9Do+mK1xR/GMmWlxU+eTY1iNTQao7YlTKMeEbD5VDJTuQtPnBaxxLaZ\nJ+DMtaICBz1SSYw43EnXDeyYw67StDwaqnzuOaBdMc5X03j0MkvY6hEnNNyGINVT\nWQ8PGUEW3f4NePUlZns=\n-----END PRIVATE KEY-----\n",
+  "client_email": "mofinoserviceaccount@springbootonkubernettes.iam.gserviceaccount.com",
+  "client_id": "116527397114000556199",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/mofinoserviceaccount%40springbootonkubernettes.iam.gserviceaccount.com"
+}
