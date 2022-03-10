@@ -27,8 +27,13 @@ public class UserController {
     }
 
     @GetMapping("/register")
-    public ModelAndView register(ModelAndView modelAndView){
-        modelAndView.setViewName("register.html");
+    public ModelAndView register(ModelAndView modelAndView, HttpSession session){
+
+        if (session.getAttribute("username") != null){
+            modelAndView.setViewName("redirect:/login.html");
+        }else {
+            modelAndView.setViewName("register.html");
+        }
 
         return modelAndView;
     }
@@ -56,10 +61,33 @@ public class UserController {
     }
 
     @PostMapping("/login")
-    public ModelAndView loginConfirm(@ModelAttribute UserLoginBindingModel model,
+    public ModelAndView loginConfirm(@ModelAttribute UserLoginBindingModel userLoginBindingModel,
                                      ModelAndView modelAndView, HttpSession session){
 
-        modelAndView.setViewName("login.html");
-        return modelAndView;
+      UserServiceModel userServiceModel = this.userService.loginUser(this.modelMapper.map
+              (userLoginBindingModel, UserServiceModel.class));
+
+      if (userServiceModel == null ){
+          throw new IllegalArgumentException("User login failed!");
+      }
+      session.setAttribute("userId", userServiceModel.getId());
+      session.setAttribute("username", userServiceModel.getUsername());
+
+      modelAndView.setViewName("redirect:/home");
+      return modelAndView;
     }
+
+    @GetMapping("/logout")
+    public ModelAndView logout(ModelAndView modelAndView, HttpSession session){
+
+        if (session.getAttribute("username") == null){
+            modelAndView.setViewName("redirect:/login");
+        }else {
+            session.invalidate();
+            modelAndView.setViewName("redirect:/");
+        }
+        return modelAndView;
+
+    }
+
 }
